@@ -1,0 +1,112 @@
+2024-11-14T06:49:00.084+05:30  INFO 9004 --- [EmpDB] [restartedMain] com.employee.EmpDB.EmpDbApplication      : Starting EmpDbApplication using Java 22.0.1 with PID 9004 (C:\Users\SanthiyaP\Downloads\EmpDB\EmpDB\target\classes started by SanthiyaP in C:\Users\SanthiyaP\Downloads\EmpDB\EmpDB)
+2024-11-14T06:49:00.107+05:30  INFO 9004 --- [EmpDB] [restartedMain] com.employee.EmpDB.EmpDbApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-14T06:49:00.208+05:30  INFO 9004 --- [EmpDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-14T06:49:00.208+05:30  INFO 9004 --- [EmpDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-14T06:49:01.365+05:30  INFO 9004 --- [EmpDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14T06:49:01.443+05:30  INFO 9004 --- [EmpDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
+2024-11-14T06:49:02.260+05:30  INFO 9004 --- [EmpDB] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-14T06:49:02.282+05:30  INFO 9004 --- [EmpDB] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-14T06:49:02.283+05:30  INFO 9004 --- [EmpDB] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14T06:49:02.348+05:30  INFO 9004 --- [EmpDB] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-14T06:49:02.349+05:30  INFO 9004 --- [EmpDB] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2140 ms
+2024-11-14T06:49:02.397+05:30  INFO 9004 --- [EmpDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-14T06:49:02.971+05:30  INFO 9004 --- [EmpDB] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c549dfd
+2024-11-14T06:49:02.973+05:30  INFO 9004 --- [EmpDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-14T06:49:02.983+05:30  INFO 9004 --- [EmpDB] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/EmployeeDB'
+2024-11-14T06:49:03.177+05:30  INFO 9004 --- [EmpDB] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14T06:49:03.316+05:30  INFO 9004 --- [EmpDB] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14T06:49:03.399+05:30  INFO 9004 --- [EmpDB] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-14T06:49:03.831+05:30  INFO 9004 --- [EmpDB] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14T06:49:04.865+05:30  INFO 9004 --- [EmpDB] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14T06:49:04.931+05:30  INFO 9004 --- [EmpDB] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14T06:49:05.319+05:30  WARN 9004 --- [EmpDB] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14T06:49:05.886+05:30  INFO 9004 --- [EmpDB] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-14T06:49:05.942+05:30  INFO 9004 --- [EmpDB] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-14T06:49:05.956+05:30  INFO 9004 --- [EmpDB] [restartedMain] com.employee.EmpDB.EmpDbApplication      : Started EmpDbApplication in 6.656 seconds (process running for 7.259)
+2024-11-14T06:49:27.901+05:30  INFO 9004 --- [EmpDB] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14T06:49:27.906+05:30  INFO 9004 --- [EmpDB] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-14T06:49:27.915+05:30  INFO 9004 --- [EmpDB] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-14T06:49:34.244+05:30  INFO 25008 --- [EmpDB] [restartedMain] com.employee.EmpDB.EmpDbApplication      : Starting EmpDbApplication using Java 22.0.1 with PID 25008 (C:\Users\SanthiyaP\Downloads\EmpDB\EmpDB\target\classes started by SanthiyaP in C:\Users\SanthiyaP\Downloads\EmpDB\EmpDB)
+2024-11-14T06:49:34.247+05:30  INFO 25008 --- [EmpDB] [restartedMain] com.employee.EmpDB.EmpDbApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-14T06:49:34.335+05:30  INFO 25008 --- [EmpDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-14T06:49:34.335+05:30  INFO 25008 --- [EmpDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-14T06:49:35.210+05:30  INFO 25008 --- [EmpDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14T06:49:35.281+05:30  INFO 25008 --- [EmpDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-11-14T06:49:36.019+05:30  INFO 25008 --- [EmpDB] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-14T06:49:36.040+05:30  INFO 25008 --- [EmpDB] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-14T06:49:36.041+05:30  INFO 25008 --- [EmpDB] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14T06:49:36.093+05:30  INFO 25008 --- [EmpDB] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-14T06:49:36.093+05:30  INFO 25008 --- [EmpDB] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1758 ms
+2024-11-14T06:49:36.138+05:30  INFO 25008 --- [EmpDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-14T06:49:36.597+05:30  INFO 25008 --- [EmpDB] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6219ae07
+2024-11-14T06:49:36.599+05:30  INFO 25008 --- [EmpDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-14T06:49:36.610+05:30  INFO 25008 --- [EmpDB] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/EmployeeDB'
+2024-11-14T06:49:36.816+05:30  INFO 25008 --- [EmpDB] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14T06:49:36.888+05:30  INFO 25008 --- [EmpDB] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14T06:49:36.942+05:30  INFO 25008 --- [EmpDB] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-14T06:49:37.331+05:30  INFO 25008 --- [EmpDB] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14T06:49:38.255+05:30  INFO 25008 --- [EmpDB] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14T06:49:38.321+05:30  INFO 25008 --- [EmpDB] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14T06:49:38.688+05:30  WARN 25008 --- [EmpDB] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14T06:49:39.129+05:30  INFO 25008 --- [EmpDB] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-14T06:49:39.175+05:30  INFO 25008 --- [EmpDB] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-14T06:49:39.187+05:30  INFO 25008 --- [EmpDB] [restartedMain] com.employee.EmpDB.EmpDbApplication      : Started EmpDbApplication in 5.675 seconds (process running for 6.255)
+2024-11-14T06:50:27.393+05:30  INFO 25008 --- [EmpDB] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14T06:50:27.399+05:30  INFO 25008 --- [EmpDB] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-14T06:50:27.411+05:30  INFO 25008 --- [EmpDB] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-14T06:55:34.590+05:30  INFO 9984 --- [EmpDB] [restartedMain] com.employee.EmpDB.EmpDbApplication      : Starting EmpDbApplication using Java 22.0.1 with PID 9984 (C:\Users\SanthiyaP\Downloads\EmpDB\EmpDB\target\classes started by SanthiyaP in C:\Users\SanthiyaP\Downloads\EmpDB\EmpDB)
+2024-11-14T06:55:34.593+05:30  INFO 9984 --- [EmpDB] [restartedMain] com.employee.EmpDB.EmpDbApplication      : The following 1 profile is active: "dev"
+2024-11-14T06:55:34.677+05:30  INFO 9984 --- [EmpDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-14T06:55:34.677+05:30  INFO 9984 --- [EmpDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-14T06:55:35.498+05:30  INFO 9984 --- [EmpDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14T06:55:35.581+05:30  INFO 9984 --- [EmpDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2024-11-14T06:55:36.345+05:30  INFO 9984 --- [EmpDB] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-14T06:55:36.365+05:30  INFO 9984 --- [EmpDB] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-14T06:55:36.365+05:30  INFO 9984 --- [EmpDB] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14T06:55:36.411+05:30  INFO 9984 --- [EmpDB] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-14T06:55:36.412+05:30  INFO 9984 --- [EmpDB] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1734 ms
+2024-11-14T06:55:36.463+05:30  INFO 9984 --- [EmpDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-14T06:55:36.884+05:30  INFO 9984 --- [EmpDB] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b1fe354
+2024-11-14T06:55:36.887+05:30  INFO 9984 --- [EmpDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-14T06:55:36.897+05:30  INFO 9984 --- [EmpDB] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/EmployeeDB'
+2024-11-14T06:55:37.091+05:30  INFO 9984 --- [EmpDB] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14T06:55:37.214+05:30  INFO 9984 --- [EmpDB] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14T06:55:37.261+05:30  INFO 9984 --- [EmpDB] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-14T06:55:37.633+05:30  INFO 9984 --- [EmpDB] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14T06:55:38.451+05:30  INFO 9984 --- [EmpDB] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14T06:55:38.494+05:30  INFO 9984 --- [EmpDB] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14T06:55:38.808+05:30  WARN 9984 --- [EmpDB] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14T06:55:39.257+05:30  INFO 9984 --- [EmpDB] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-14T06:55:39.300+05:30  INFO 9984 --- [EmpDB] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-14T06:55:39.310+05:30  INFO 9984 --- [EmpDB] [restartedMain] com.employee.EmpDB.EmpDbApplication      : Started EmpDbApplication in 5.448 seconds (process running for 6.054)
+2024-11-14T06:56:05.424+05:30  INFO 9984 --- [EmpDB] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14T06:56:05.427+05:30  INFO 9984 --- [EmpDB] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-14T06:56:05.437+05:30  INFO 9984 --- [EmpDB] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-14T06:56:09.877+05:30  INFO 25836 --- [EmpDB] [restartedMain] com.employee.EmpDB.EmpDbApplication      : Starting EmpDbApplication using Java 22.0.1 with PID 25836 (C:\Users\SanthiyaP\Downloads\EmpDB\EmpDB\target\classes started by SanthiyaP in C:\Users\SanthiyaP\Downloads\EmpDB\EmpDB)
+2024-11-14T06:56:09.880+05:30  INFO 25836 --- [EmpDB] [restartedMain] com.employee.EmpDB.EmpDbApplication      : The following 1 profile is active: "dev"
+2024-11-14T06:56:09.976+05:30  INFO 25836 --- [EmpDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-14T06:56:09.976+05:30  INFO 25836 --- [EmpDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-14T06:56:10.845+05:30  INFO 25836 --- [EmpDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14T06:56:10.921+05:30  INFO 25836 --- [EmpDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2024-11-14T06:56:11.643+05:30  INFO 25836 --- [EmpDB] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-14T06:56:11.663+05:30  INFO 25836 --- [EmpDB] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-14T06:56:11.663+05:30  INFO 25836 --- [EmpDB] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14T06:56:11.713+05:30  INFO 25836 --- [EmpDB] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-14T06:56:11.714+05:30  INFO 25836 --- [EmpDB] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1738 ms
+2024-11-14T06:56:11.756+05:30  INFO 25836 --- [EmpDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-14T06:56:12.182+05:30  INFO 25836 --- [EmpDB] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ec0e708
+2024-11-14T06:56:12.184+05:30  INFO 25836 --- [EmpDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-14T06:56:12.194+05:30  INFO 25836 --- [EmpDB] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/EmployeeDB'
+2024-11-14T06:56:12.355+05:30  INFO 25836 --- [EmpDB] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14T06:56:12.458+05:30  INFO 25836 --- [EmpDB] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14T06:56:12.501+05:30  INFO 25836 --- [EmpDB] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-14T06:56:12.878+05:30  INFO 25836 --- [EmpDB] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14T06:56:13.651+05:30  INFO 25836 --- [EmpDB] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14T06:56:13.694+05:30  INFO 25836 --- [EmpDB] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14T06:56:14.086+05:30  WARN 25836 --- [EmpDB] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14T06:56:14.534+05:30  INFO 25836 --- [EmpDB] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-14T06:56:14.577+05:30  INFO 25836 --- [EmpDB] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-14T06:56:14.589+05:30  INFO 25836 --- [EmpDB] [restartedMain] com.employee.EmpDB.EmpDbApplication      : Started EmpDbApplication in 5.423 seconds (process running for 6.005)
+2024-11-14T07:03:58.067+05:30  WARN 25836 --- [EmpDB] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s666ms395µs400ns).
+2024-11-14T09:13:24.661+05:30  WARN 25836 --- [EmpDB] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h43m26s149ms491µs300ns).
+2024-11-14T09:17:33.548+05:30  WARN 25836 --- [EmpDB] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m8s846ms577µs100ns).

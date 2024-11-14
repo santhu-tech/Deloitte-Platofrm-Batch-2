@@ -1,0 +1,31 @@
+#Spring:
+#  datasource:
+#    url:
+#    userName:
+#    Password:
+
+spring.profiles.active: dev
+---
+spring:
+  profile: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/EmployeeDB
+    password: Viyaan@17
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+logging:
+  file:
+    name: logsapplication.log
+    max-history: 30
+  level:
+    com:
+      employee:
+        EmpDB:
+          nodeValue: INFO
+          Service: DEBUG
+
+
