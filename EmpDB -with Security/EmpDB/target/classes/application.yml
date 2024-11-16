@@ -1,0 +1,57 @@
+#Spring:
+#  datasource:
+#    url:
+#    userName:
+#    Password:
+
+#spring.profiles.active: dev
+
+#spring:
+#  profiles:
+#    active: dev
+---
+spring:
+#  profile: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/EmployeeDB
+    password: Viyaan@17
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+logging:
+  file:
+    name: logsapplication.log
+    max-history: 30
+  level:
+    com:
+      employee:
+        EmpDB:
+          nodeValue: INFO
+          Service: DEBUG
+
+#Actuator endpoints
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   #To expose all the endpoints
+#        include: "health,loggers,metrics,features,prometheus"
+        exclude: "env,beans"
+      endpoints:
+        health:
+          show-details: "always"  #show detailed health status
+  metrics:
+    export:
+      prometheus:
+        Enabled: true
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    try-it-out-enabled: true
+    default-model-expand-depth: -1
+

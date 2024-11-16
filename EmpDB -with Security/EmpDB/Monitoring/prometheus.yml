@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 15s  # How often Prometheus scrapes targets by default.
+
+scrape_configs:
+  - job_name: 'employee-service'  # Identifier for the job
+    metrics_path: '/actuator/prometheus'  # Path to metrics endpoint
+    static_configs:
+      - targets: ['localhost:8080']  # Address of your Spring Boot application
