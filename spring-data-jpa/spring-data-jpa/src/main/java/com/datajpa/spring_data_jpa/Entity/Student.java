@@ -7,6 +7,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.boot.autoconfigure.web.WebProperties;
 
+import java.util.List;
+
 @Entity
 @Data  //toString() ,equals() ,Hashcode()
 @AllArgsConstructor
@@ -48,11 +50,8 @@ public class Student {
     @Embedded
     private Guardian guardian;
 
-    @ManyToMany
-    @JoinTable(
-            name="student_course",
-            joinColumns = @JoinColumn(name="course_id"),
-            inverseJoinColumns = @JoinColumn(name="student_id")
-    )
+
+
+
 
 }
