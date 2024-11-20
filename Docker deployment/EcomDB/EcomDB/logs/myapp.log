@@ -1,0 +1,141 @@
+2024-10-28T13:05:01.496+05:30  INFO 14064 --- [EcomDB] [restartedMain] c.s.EcomDB.EcomDbApplication             : Starting EcomDbApplication using Java 22.0.1 with PID 14064 (C:\Users\SanthiyaP\Downloads\EcomDB\EcomDB\target\classes started by SanthiyaP in C:\Users\SanthiyaP\Downloads\EcomDB\EcomDB)
+2024-10-28T13:05:01.514+05:30  INFO 14064 --- [EcomDB] [restartedMain] c.s.EcomDB.EcomDbApplication             : The following 1 profile is active: "dev"
+2024-10-28T13:05:01.579+05:30  INFO 14064 --- [EcomDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-28T13:05:01.580+05:30  INFO 14064 --- [EcomDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-28T13:05:02.977+05:30  INFO 14064 --- [EcomDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T13:05:03.043+05:30  INFO 14064 --- [EcomDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2024-10-28T13:05:04.056+05:30  INFO 14064 --- [EcomDB] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9181 (http)
+2024-10-28T13:05:04.074+05:30  INFO 14064 --- [EcomDB] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T13:05:04.075+05:30  INFO 14064 --- [EcomDB] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-28T13:05:04.137+05:30  INFO 14064 --- [EcomDB] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T13:05:04.137+05:30  INFO 14064 --- [EcomDB] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2556 ms
+2024-10-28T13:05:04.319+05:30  INFO 14064 --- [EcomDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T13:05:04.545+05:30  INFO 14064 --- [EcomDB] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-28T13:05:04.547+05:30  INFO 14064 --- [EcomDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T13:05:04.557+05:30  INFO 14064 --- [EcomDB] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-28T13:05:04.814+05:30  INFO 14064 --- [EcomDB] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T13:05:04.895+05:30  INFO 14064 --- [EcomDB] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T13:05:04.944+05:30  INFO 14064 --- [EcomDB] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T13:05:05.307+05:30  INFO 14064 --- [EcomDB] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T13:05:05.368+05:30  WARN 14064 --- [EcomDB] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-28T13:05:06.328+05:30  INFO 14064 --- [EcomDB] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T13:05:06.378+05:30  INFO 14064 --- [EcomDB] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:05:06.834+05:30  WARN 14064 --- [EcomDB] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T13:05:07.783+05:30  INFO 14064 --- [EcomDB] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T13:05:07.797+05:30  INFO 14064 --- [EcomDB] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-10-28T13:05:07.887+05:30  WARN 14064 --- [EcomDB] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-28T13:05:07.890+05:30  INFO 14064 --- [EcomDB] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:05:07.903+05:30  WARN 14064 --- [EcomDB] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-28T13:05:07.904+05:30  INFO 14064 --- [EcomDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T13:05:07.908+05:30  INFO 14064 --- [EcomDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T13:05:07.925+05:30  INFO 14064 --- [EcomDB] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-28T13:05:07.946+05:30 ERROR 14064 --- [EcomDB] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9181 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9181 or configure this application to listen on another port.
+
+2024-10-28T13:05:31.346+05:30  INFO 11200 --- [EcomDB] [restartedMain] c.s.EcomDB.EcomDbApplication             : Starting EcomDbApplication using Java 22.0.1 with PID 11200 (C:\Users\SanthiyaP\Downloads\EcomDB\EcomDB\target\classes started by SanthiyaP in C:\Users\SanthiyaP\Downloads\EcomDB\EcomDB)
+2024-10-28T13:05:31.348+05:30  INFO 11200 --- [EcomDB] [restartedMain] c.s.EcomDB.EcomDbApplication             : The following 1 profile is active: "dev"
+2024-10-28T13:05:31.421+05:30  INFO 11200 --- [EcomDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-28T13:05:31.421+05:30  INFO 11200 --- [EcomDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-28T13:05:32.648+05:30  INFO 11200 --- [EcomDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T13:05:32.704+05:30  INFO 11200 --- [EcomDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2024-10-28T13:05:33.723+05:30  INFO 11200 --- [EcomDB] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9181 (http)
+2024-10-28T13:05:33.738+05:30  INFO 11200 --- [EcomDB] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T13:05:33.738+05:30  INFO 11200 --- [EcomDB] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-28T13:05:33.791+05:30  INFO 11200 --- [EcomDB] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T13:05:33.791+05:30  INFO 11200 --- [EcomDB] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2370 ms
+2024-10-28T13:05:33.979+05:30  INFO 11200 --- [EcomDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T13:05:34.177+05:30  INFO 11200 --- [EcomDB] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-28T13:05:34.179+05:30  INFO 11200 --- [EcomDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T13:05:34.199+05:30  INFO 11200 --- [EcomDB] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-28T13:05:34.460+05:30  INFO 11200 --- [EcomDB] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T13:05:34.522+05:30  INFO 11200 --- [EcomDB] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T13:05:34.566+05:30  INFO 11200 --- [EcomDB] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T13:05:34.913+05:30  INFO 11200 --- [EcomDB] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T13:05:34.956+05:30  WARN 11200 --- [EcomDB] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-28T13:05:35.851+05:30  INFO 11200 --- [EcomDB] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T13:05:35.899+05:30  INFO 11200 --- [EcomDB] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:05:36.355+05:30  WARN 11200 --- [EcomDB] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T13:05:37.329+05:30  INFO 11200 --- [EcomDB] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T13:05:37.346+05:30  INFO 11200 --- [EcomDB] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-10-28T13:05:37.441+05:30  WARN 11200 --- [EcomDB] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-28T13:05:37.444+05:30  INFO 11200 --- [EcomDB] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:05:37.455+05:30  WARN 11200 --- [EcomDB] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-28T13:05:37.456+05:30  INFO 11200 --- [EcomDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T13:05:37.461+05:30  INFO 11200 --- [EcomDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T13:05:37.479+05:30  INFO 11200 --- [EcomDB] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-28T13:05:37.504+05:30 ERROR 11200 --- [EcomDB] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9181 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9181 or configure this application to listen on another port.
+
+2024-10-28T13:42:10.025+05:30  INFO 11992 --- [EcomDB] [restartedMain] c.s.EcomDB.EcomDbApplication             : Starting EcomDbApplication using Java 22.0.1 with PID 11992 (C:\Users\SanthiyaP\Downloads\EcomDB\EcomDB\target\classes started by SanthiyaP in C:\Users\SanthiyaP\Downloads\EcomDB\EcomDB)
+2024-10-28T13:42:10.028+05:30  INFO 11992 --- [EcomDB] [restartedMain] c.s.EcomDB.EcomDbApplication             : The following 1 profile is active: "dev"
+2024-10-28T13:42:10.085+05:30  INFO 11992 --- [EcomDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-28T13:42:10.085+05:30  INFO 11992 --- [EcomDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-28T13:42:11.535+05:30  INFO 11992 --- [EcomDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T13:42:11.605+05:30  INFO 11992 --- [EcomDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2024-10-28T13:42:12.588+05:30  INFO 11992 --- [EcomDB] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9181 (http)
+2024-10-28T13:42:12.610+05:30  INFO 11992 --- [EcomDB] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T13:42:12.611+05:30  INFO 11992 --- [EcomDB] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-28T13:42:12.679+05:30  INFO 11992 --- [EcomDB] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T13:42:12.680+05:30  INFO 11992 --- [EcomDB] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2594 ms
+2024-10-28T13:42:12.877+05:30  INFO 11992 --- [EcomDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T13:42:13.104+05:30  INFO 11992 --- [EcomDB] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-28T13:42:13.106+05:30  INFO 11992 --- [EcomDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T13:42:13.116+05:30  INFO 11992 --- [EcomDB] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-28T13:42:13.414+05:30  INFO 11992 --- [EcomDB] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T13:42:13.500+05:30  INFO 11992 --- [EcomDB] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T13:42:13.544+05:30  INFO 11992 --- [EcomDB] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T13:42:13.895+05:30  INFO 11992 --- [EcomDB] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T13:42:13.948+05:30  WARN 11992 --- [EcomDB] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-28T13:42:14.838+05:30  INFO 11992 --- [EcomDB] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T13:42:14.892+05:30  INFO 11992 --- [EcomDB] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:42:15.382+05:30  WARN 11992 --- [EcomDB] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T13:42:16.432+05:30  INFO 11992 --- [EcomDB] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T13:42:16.452+05:30  INFO 11992 --- [EcomDB] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-10-28T13:42:16.563+05:30  WARN 11992 --- [EcomDB] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-28T13:42:16.566+05:30  INFO 11992 --- [EcomDB] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:42:16.576+05:30  WARN 11992 --- [EcomDB] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-28T13:42:16.577+05:30  INFO 11992 --- [EcomDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T13:42:16.581+05:30  INFO 11992 --- [EcomDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T13:42:16.599+05:30  INFO 11992 --- [EcomDB] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-28T13:42:16.626+05:30 ERROR 11992 --- [EcomDB] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9181 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9181 or configure this application to listen on another port.
+
