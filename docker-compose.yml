@@ -1,0 +1,30 @@
+services:
+  database:
+    image: mysql:8.0
+    container_name: empdb_mysql
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: Viyaan@17
+      MYSQL_DATABASE: empdb
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+
+  app:
+    build:
+      context: C:/Users/SanthiyaP/Downloads/EmpDB/EmpDB
+      dockerfile: Dockerfile
+    container_name: empdb_app
+    ports:
+      - "6261:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://database:3306/empdb
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Viyaan@17
+    depends_on:
+      - database
+    restart: always
+
+volumes:
+  db_data:
