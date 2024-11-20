@@ -1,0 +1,28 @@
+#server:
+#  port: 9181
+#
+#spring.profiles.active: qa
+#
+#---
+#spring:
+#  profiles: qa
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/sales-qa
+#    username: postgres
+#    password: Viyaan@11
+#    jpa:
+#      hibernate:
+#        ddl-auto: create
+#---
+#spring:
+#  profiles: dev
+#  datasource:
+#    driverClassName: org.h2.Driver
+#    url: jdbc:h2:mem:test
+#    username: sa
+#    password: password
+#  jpa:
+#    platform:
+#      database: org.hibernate.dialect.H2Dialect
+#
+#---

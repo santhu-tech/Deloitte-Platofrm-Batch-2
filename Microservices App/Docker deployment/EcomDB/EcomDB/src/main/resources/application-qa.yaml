@@ -1,0 +1,36 @@
+#server:
+#  port: 9181
+#spring.profiles.active: dev
+#---
+#spring:
+#  profiles: qa
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/sales-qa
+#    username: postgres
+#    password: Viyaan@11
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+#---
+#spring:
+#  profiles: dev
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/sales-dev
+#    username: postgres
+#    password: Viyaan@11
+#  jpa:
+#    hibernate:
+#      ddl-auto: validate
+#    show-sql: false
+##management:
+##  endpoints:
+##    web:
+##      exposure:
+##        include: "*"
+##spring.profiles.active: qa
